@@ -1,7 +1,7 @@
 import { Component } from "react";
 
 export default class TaskList extends Component {
-  houldComponentdidUpdate(nextProps, nextState) {
+  shouldComponentdidUpdate(nextProps, nextState) {
     if (this.props.iconLevel !== nextProps) {
       return true;
     } else return false;
